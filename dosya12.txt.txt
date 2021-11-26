@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCS Çalışması</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+            
+        
+        #p2 {
+            color: rgb(128, 6, 30);
+            font-size: 60px;
+            font-family: 'Times New Roman', Times, serif;
+            border-color: green;
+        }
+                
+        #p3 {
+            border: 2px;
+            border-color: indigo;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1 style= border: title="CSS LESSONS">CSS LESSONS</h1>
+
+    <p>Inline CCS : <br>
+        Sağlık Bakanlığı, corona virüs için son gelişmeleri ve günlük tabloyu paylaştı. Açıklanan tabloya göre son 24 saatte 352 bin 335 Kovid-19 testi yapıldı, 23 bin 347 kişinin testi pozitif çıktı, 201 kişi yaşamını yitirdi. Bakan Koca yaptığı açıklamada aşı çağrısı yaparak, "İki doz aşılıların sayısının 50 Milyonu geçtiğini ve 50 Milyonun toplam nüfusun %60’ına karşılık geldiğini bugün açıkladık. Aşılama programında 18 yaş ve üstünü esas aldığımız için bu oran tabloda %80,5 görünüyor. Salgına karşı daha güçlü mücadele için bu oranı yükseltmeliyiz" ifadelerini kullandı.</p>
+    <P id="p2" style="color: rgb(233, 20, 126);">İnternal CSS</P>
+
+    <p class="pr">Sağlık Bakanlığı, corona virüs için son gelişmeleri ve günlük tabloyu paylaştı. Açıklanan tabloya göre son 24 saatte 352 bin 335 Kovid-19 testi yapıldı, 23 bin 347 kişinin testi pozitif çıktı, 201 kişi yaşamını yitirdi.</p>
+
+    <p class="pr">Bakan Koca yaptığı açıklamada aşı çağrısı yaparak, "İki doz aşılıların sayısının 50 Milyonu geçtiğini ve 50 Milyonun toplam nüfusun %60’ına karşılık geldiğini bugün açıkladık.</p>
+
+    <p class="pr">Aşılama programında 18 yaş ve üstünü esas aldığımız için bu oran tabloda %80,5 görünüyor. Salgına karşı daha güçlü mücadele için bu oranı yükseltmeliyiz" ifadelerini kullandı.</p>
+
+    <h2>External CSS Çalışması</h2>
+
+    <p id="p3">Sağlık Bakanlığı, corona virüs için son gelişmeleri ve günlük tabloyu paylaştı. Açıklanan tabloya göre son 24 saatte 352 bin 335 Kovid-19 testi yapıldı, 23 bin 347 kişinin testi pozitif çıktı, 201 kişi yaşamını yitirdi. Bakan Koca yaptığı açıklamada aşı çağrısı yaparak, "İki doz aşılıların sayısının 50 Milyonu geçtiğini ve 50 Milyonun toplam nüfusun %60’ına karşılık geldiğini bugün açıkladık.</p>
+</body>
+</html>
